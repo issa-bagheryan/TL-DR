@@ -35,7 +35,6 @@ Everything runs locally using Ollama—no OpenAI API keys, no cloud services, an
 
 The application follows a standard RAG pipeline:
 
-```text
 ```mermaid
 flowchart LR
     PDF["📄 PDF"] --> Loader["PyPDF Loader"]
@@ -48,7 +47,6 @@ flowchart LR
     Retriever --> Prompt["Prompt Template"]
     Prompt --> LLM["qwen3:4b"]
     LLM --> Answer["💬 Answer"]
-```
 ```
 
 ### 1. Document Loading
