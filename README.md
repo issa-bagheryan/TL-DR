@@ -14,7 +14,7 @@ A local Retrieval-Augmented Generation (RAG) application that lets you chat with
 
 Instead of simply sending a PDF to an LLM, the application builds a searchable knowledge base from the document. When a question is asked, only the most relevant parts of the PDF are retrieved and provided to the language model as context.
 
-Everything runs locally using Ollama—no OpenAI API keys, no cloud services, and no data leaves your computer.
+Everything runs locally using Ollama,so no OpenAI API keys, no cloud services, and no data leaves your computer.
 
 ---
 
